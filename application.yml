@@ -7,7 +7,6 @@ spring:
 server:
   tomcat:
     uri-encoding: UTF-8
-<<<<<<< HEAD
 ribbon:
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 3
@@ -29,7 +28,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://172.18.240.234:8882/discovery/eureka/
-=======
 #ribbon:
 #  MaxAutoRetries: 1
 #  MaxAutoRetriesNextServer: 3
