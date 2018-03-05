@@ -7,6 +7,7 @@ spring:
 server:
   tomcat:
     uri-encoding: UTF-8
+<<<<<<< HEAD
 ribbon:
   MaxAutoRetries: 1
   MaxAutoRetriesNextServer: 3
@@ -28,3 +29,23 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://172.18.240.234:8882/discovery/eureka/
+=======
+#ribbon:
+#  MaxAutoRetries: 1
+#  MaxAutoRetriesNextServer: 3
+#  OkToRetryOnAllOperations: true
+#  ConnectTimeout: 1500
+#  ReadTimeout: 2000
+#eureka:
+#  instance:
+    #metadata-map:
+    #  cluster: prontera
+    #  management:
+    #    port: ${management.port}
+    #    context-path: ${management.context-path}
+    #  health:
+    #    path: ${management.context-path}/health
+#    status-page-url-path: ${management.context-path}/info
+#    health-check-url-path: ${management.context-path}/health
+#    prefer-ip-address: false
+>>>>>>> local
